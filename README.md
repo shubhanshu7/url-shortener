@@ -19,7 +19,7 @@ This is a simple URL shortener service implemented in Go. It provides a REST API
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/url-shortener.git
+   git clone https://github.com/shubhanshu7/url-shortener.git
 
 2. Navigate to the project repository:
   cd url-shortener.
