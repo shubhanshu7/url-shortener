@@ -3,16 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"sync"
 	"urlshortner/controller"
-	"urlshortner/utils"
-)
-
-// Global variables for storing URL data and metrics
-var (
-	urlMap  = make(map[string]utils.URLData)
-	metrics = make(map[string]int)
-	mu      sync.Mutex
 )
 
 func main() {
